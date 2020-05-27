@@ -1,0 +1,68 @@
+@charset "utf-8";
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 36px;
+	line-height: normal;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #000;
+	text-decoration: none;
+	cursor: crosshair;
+	filter: Chroma(Color=#FFFF);
+	border: thick groove #FFF;
+}
+h2{
+	font-family: Impact, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	line-height: normal;
+	font-weight: lighter;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #000;
+	text-decoration: underline;
+	cursor: crosshair;
+}
+p {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	font-style: oblique;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+	cursor: crosshair;
+	background-image: none;
+	text-decoration: blink;
+}
+
+body {
+	background-image: url(img/fondo.jpg);
+	background-repeat: repeat;
+	cursor: crosshair;
+	color: #FFF;
+	background-position: left top;
+	background-attachment: scroll;
+}
+h5 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: lighter;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFF;
+	text-decoration: underline overline;
+}
+#cabecera h1 {
+	color: #000;
+}
+.sd {
+	color: #FFF;
+}
+#total #pie h3 {
+	color: #000;
+}
